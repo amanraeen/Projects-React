@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.heading{
+  margin: 2em;
+}
+
+.outerBox{
+  display: flex;
+  height: 310px;
+  width: 250px;
+  border: 2px solid black;
+  border-radius: 15px;
+  margin-top: 1em;
+  margin-inline: auto;
+  flex-direction: column;
+  background-color: azure;
+}
+
+.display{
+  font-size: 1.7em;
+  margin: 0.5em;
+  padding: 5px;
+}
+
+.buttons button{
+  margin-top: 1em;
+  height: 2.5em;
+  width: 2.5em;
+  margin: 0.8em;
+}
